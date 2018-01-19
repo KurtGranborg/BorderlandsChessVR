@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 1e0d37d7c705435489165db7e1eb49ed
+timeCreated: 1489284771
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: FaceBaseBone
+    100004: Hat
+    100006: Head
+    100008: Hips
+    100010: Jaw
+    100012: L_Clav
+    100014: L_CoatTail01
+    100016: L_CoatTail02
+    100018: L_CoatTail03
+    100020: L_CoatTail04
+    100022: L_Foot
+    100024: L_Forearm
+    100026: L_Forearm_Twist
+    100028: L_Hand
+    100030: l_Index01
+    100032: l_Index02
+    100034: l_Index03
+    100036: l_Middle01
+    100038: l_Middle02
+    100040: l_Middle03
+    100042: l_Pinkie01
+    100044: l_Pinkie02
+    100046: l_Pinkie03
+    100048: l_Ring01
+    100050: l_Ring02
+    100052: l_Ring03
+    100054: L_Shin
+    100056: L_Thigh
+    100058: l_Thumb01
+    100060: l_Thumb02
+    100062: l_Thumb03
+    100064: L_Toe
+    100066: L_Upperarm
+    100068: L_Weapon_Bone
+    100070: lBrow
+    100072: lCheek
+    100074: lCheekBone
+    100076: lCrowfeet
+    100078: lEye
+    100080: lForeHead
+    100082: lInnerBrow
+    100084: lLowerInsideEyelid
+    100086: lLowerLabiFold
+    100088: lLowerLip
+    100090: lLowerLipCorner
+    100092: lLowerMouthFold
+    100094: lLowerOutsideEyelid
+    100096: lMouthCorner
+    100098: lNasalFlare
+    100100: lNasalLabiaFold
+    100102: lOuterBrow
+    100104: LowerLip
+    100106: LowerLipFold
+    100108: lSneer
+    100110: lUpperInsideEylid
+    100112: lUpperLip
+    100114: lUpperLipCorner
+    100116: lUpperOutsideEyelid
+    100118: //RootNode
+    100120: Neck
+    100122: Nose
+    100124: R_Clav
+    100126: R_CoatTail01
+    100128: R_CoatTail02
+    100130: R_CoatTail03
+    100132: R_CoatTail04
+    100134: R_Foot
+    100136: R_Forearm
+    100138: R_Forearm_Twist
+    100140: R_Hand
+    100142: r_Index01
+    100144: r_Index02
+    100146: r_Index03
+    100148: r_Middle01
+    100150: r_Middle02
+    100152: r_Middle03
+    100154: r_Pinkie01
+    100156: r_Pinkie02
+    100158: r_Pinkie03
+    100160: r_Ring01
+    100162: r_Ring02
+    100164: r_Ring03
+    100166: R_Shin
+    100168: R_Thigh
+    100170: r_Thumb01
+    100172: r_Thumb02
+    100174: r_Thumb03
+    100176: R_Toe
+    100178: R_Upperarm
+    100180: R_Weapon_Bone
+    100182: rBrow
+    100184: rCheek
+    100186: rCheekBone
+    100188: rCrowfeet
+    100190: rEye
+    100192: rForeHead
+    100194: rInnerBrow
+    100196: rLowerInsideEyelid
+    100198: rLowerLabiFold
+    100200: rLowerLip
+    100202: rLowerLipCorner
+    100204: rLowerMouthFold
+    100206: rLowerOutsideEyelid
+    100208: rMouthCorner
+    100210: rNasalFlare
+    100212: rNasalLabiaFold
+    100214: Root
+    100216: rOuterBrow
+    100218: rSneer
+    100220: rUpperInsideEylid
+    100222: rUpperLip
+    100224: rUpperLipCorner
+    100226: rUpperOutsideEyelid
+    100228: Skel_Moxxi
+    100230: Spine1
+    100232: Spine2
+    100234: Spine3
+    100236: Tounge01
+    100238: Tounge02
+    100240: Tounge03
+    100242: ToungeBase
+    100244: Upperlip
+    100246: UpperLipFold
+    400000: Chest
+    400002: FaceBaseBone
+    400004: Hat
+    400006: Head
+    400008: Hips
+    400010: Jaw
+    400012: L_Clav
+    400014: L_CoatTail01
+    400016: L_CoatTail02
+    400018: L_CoatTail03
+    400020: L_CoatTail04
+    400022: L_Foot
+    400024: L_Forearm
+    400026: L_Forearm_Twist
+    400028: L_Hand
+    400030: l_Index01
+    400032: l_Index02
+    400034: l_Index03
+    400036: l_Middle01
+    400038: l_Middle02
+    400040: l_Middle03
+    400042: l_Pinkie01
+    400044: l_Pinkie02
+    400046: l_Pinkie03
+    400048: l_Ring01
+    400050: l_Ring02
+    400052: l_Ring03
+    400054: L_Shin
+    400056: L_Thigh
+    400058: l_Thumb01
+    400060: l_Thumb02
+    400062: l_Thumb03
+    400064: L_Toe
+    400066: L_Upperarm
+    400068: L_Weapon_Bone
+    400070: lBrow
+    400072: lCheek
+    400074: lCheekBone
+    400076: lCrowfeet
+    400078: lEye
+    400080: lForeHead
+    400082: lInnerBrow
+    400084: lLowerInsideEyelid
+    400086: lLowerLabiFold
+    400088: lLowerLip
+    400090: lLowerLipCorner
+    400092: lLowerMouthFold
+    400094: lLowerOutsideEyelid
+    400096: lMouthCorner
+    400098: lNasalFlare
+    400100: lNasalLabiaFold
+    400102: lOuterBrow
+    400104: LowerLip
+    400106: LowerLipFold
+    400108: lSneer
+    400110: lUpperInsideEylid
+    400112: lUpperLip
+    400114: lUpperLipCorner
+    400116: lUpperOutsideEyelid
+    400118: //RootNode
+    400120: Neck
+    400122: Nose
+    400124: R_Clav
+    400126: R_CoatTail01
+    400128: R_CoatTail02
+    400130: R_CoatTail03
+    400132: R_CoatTail04
+    400134: R_Foot
+    400136: R_Forearm
+    400138: R_Forearm_Twist
+    400140: R_Hand
+    400142: r_Index01
+    400144: r_Index02
+    400146: r_Index03
+    400148: r_Middle01
+    400150: r_Middle02
+    400152: r_Middle03
+    400154: r_Pinkie01
+    400156: r_Pinkie02
+    400158: r_Pinkie03
+    400160: r_Ring01
+    400162: r_Ring02
+    400164: r_Ring03
+    400166: R_Shin
+    400168: R_Thigh
+    400170: r_Thumb01
+    400172: r_Thumb02
+    400174: r_Thumb03
+    400176: R_Toe
+    400178: R_Upperarm
+    400180: R_Weapon_Bone
+    400182: rBrow
+    400184: rCheek
+    400186: rCheekBone
+    400188: rCrowfeet
+    400190: rEye
+    400192: rForeHead
+    400194: rInnerBrow
+    400196: rLowerInsideEyelid
+    400198: rLowerLabiFold
+    400200: rLowerLip
+    400202: rLowerLipCorner
+    400204: rLowerMouthFold
+    400206: rLowerOutsideEyelid
+    400208: rMouthCorner
+    400210: rNasalFlare
+    400212: rNasalLabiaFold
+    400214: Root
+    400216: rOuterBrow
+    400218: rSneer
+    400220: rUpperInsideEylid
+    400222: rUpperLip
+    400224: rUpperLipCorner
+    400226: rUpperOutsideEyelid
+    400228: Skel_Moxxi
+    400230: Spine1
+    400232: Spine2
+    400234: Spine3
+    400236: Tounge01
+    400238: Tounge02
+    400240: Tounge03
+    400242: ToungeBase
+    400244: Upperlip
+    400246: UpperLipFold
+    4300000: Skel_Moxxi
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Skel_Moxxi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/L_CoatTail01
+        weight: 1
+      - path: Root/Hips/L_CoatTail01/L_CoatTail02
+        weight: 1
+      - path: Root/Hips/L_CoatTail01/L_CoatTail02/L_CoatTail03
+        weight: 1
+      - path: Root/Hips/L_CoatTail01/L_CoatTail02/L_CoatTail03/L_CoatTail04
+        weight: 1
+      - path: Root/Hips/L_Thigh
+        weight: 1
+      - path: Root/Hips/L_Thigh/L_Shin
+        weight: 1
+      - path: Root/Hips/L_Thigh/L_Shin/L_Foot
+        weight: 1
+      - path: Root/Hips/L_Thigh/L_Shin/L_Foot/L_Toe
+        weight: 1
+      - path: Root/Hips/R_CoatTail01
+        weight: 1
+      - path: Root/Hips/R_CoatTail01/R_CoatTail02
+        weight: 1
+      - path: Root/Hips/R_CoatTail01/R_CoatTail02/R_CoatTail03
+        weight: 1
+      - path: Root/Hips/R_CoatTail01/R_CoatTail02/R_CoatTail03/R_CoatTail04
+        weight: 1
+      - path: Root/Hips/R_Thigh
+        weight: 1
+      - path: Root/Hips/R_Thigh/R_Shin
+        weight: 1
+      - path: Root/Hips/R_Thigh/R_Shin/R_Foot
+        weight: 1
+      - path: Root/Hips/R_Thigh/R_Shin/R_Foot/R_Toe
+        weight: 1
+      - path: Root/Hips/Spine1
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Chest
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Forearm_Twist
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Index01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Index01/l_Index02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Index01/l_Index02/l_Index03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Middle01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Middle01/l_Middle02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Middle01/l_Middle02/l_Middle03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Pinkie01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Pinkie01/l_Pinkie02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Pinkie01/l_Pinkie02/l_Pinkie03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Ring01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Ring01/l_Ring02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Ring01/l_Ring02/l_Ring03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Thumb01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Thumb01/l_Thumb02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/l_Thumb01/l_Thumb02/l_Thumb03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/L_Clav/L_Upperarm/L_Forearm/L_Hand/L_Weapon_Bone
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/lLowerLip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/lLowerLipCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/lLowerMouthFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/LowerLip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/LowerLipFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/rLowerLip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/rLowerLipCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Jaw/rLowerMouthFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lCheek
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lCheekBone
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lCrowfeet
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lEye
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lForeHead
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lInnerBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lLowerInsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lLowerLabiFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lLowerOutsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lMouthCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lNasalFlare
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lNasalLabiaFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lOuterBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lSneer
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lUpperInsideEylid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lUpperLip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lUpperLipCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/lUpperOutsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Nose
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rCheek
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rCheekBone
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rCrowfeet
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rEye
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rForeHead
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rInnerBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rLowerInsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rLowerLabiFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rLowerOutsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rMouthCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rNasalFlare
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rNasalLabiaFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rOuterBrow
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rSneer
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rUpperInsideEylid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rUpperLip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rUpperLipCorner
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/rUpperOutsideEyelid
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/ToungeBase
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/ToungeBase/Tounge01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/ToungeBase/Tounge01/Tounge02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/ToungeBase/Tounge01/Tounge02/Tounge03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/Upperlip
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/FaceBaseBone/UpperLipFold
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/Neck/Head/Hat
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Forearm_Twist
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Index01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Index01/r_Index02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Index01/r_Index02/r_Index03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Middle01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Middle01/r_Middle02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Middle01/r_Middle02/r_Middle03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Pinkie01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Pinkie01/r_Pinkie02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Pinkie01/r_Pinkie02/r_Pinkie03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Ring01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Ring01/r_Ring02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Ring01/r_Ring02/r_Ring03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Thumb01
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Thumb01/r_Thumb02
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/r_Thumb01/r_Thumb02/r_Thumb03
+        weight: 1
+      - path: Root/Hips/Spine1/Spine2/Spine3/R_Clav/R_Upperarm/R_Forearm/R_Hand/R_Weapon_Bone
+        weight: 1
+      - path: Skel_Moxxi
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: b95359ab4823a16428b53f32f9f0fc02
+timeCreated: 1489285680
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BottomFork
+    100002: Eye
+    100004: //RootNode
+    100006: Hips
+    100008: HyperionBot_Fork
+    100010: HyperionBot_Fork001
+    100012: L_Clav
+    100014: L_Forearm
+    100016: L_Hand
+    100018: L_Heel
+    100020: L_Knee
+    100022: L_Shin
+    100024: L_Shoulder
+    100026: L_Thigh
+    100028: L_ThighLimb
+    100030: L_Toe
+    100032: L_Upperarm
+    100034: L_Weapon_Bone
+    100036: R_Clav
+    100038: R_Forearm
+    100040: R_Hand
+    100042: R_Heel
+    100044: R_Knee
+    100046: R_Shin
+    100048: R_Shoulder
+    100050: R_Thigh
+    100052: R_ThighLimb
+    100054: R_Toe
+    100056: R_Upperarm
+    100058: R_Weapon_Bone
+    100060: Root
+    100062: Skel_BattleDroid
+    100064: TopFork
+    100066: TopLid
+    100068: Torso
+    400000: BottomFork
+    400002: Eye
+    400004: //RootNode
+    400006: Hips
+    400008: HyperionBot_Fork
+    400010: HyperionBot_Fork001
+    400012: L_Clav
+    400014: L_Forearm
+    400016: L_Hand
+    400018: L_Heel
+    400020: L_Knee
+    400022: L_Shin
+    400024: L_Shoulder
+    400026: L_Thigh
+    400028: L_ThighLimb
+    400030: L_Toe
+    400032: L_Upperarm
+    400034: L_Weapon_Bone
+    400036: R_Clav
+    400038: R_Forearm
+    400040: R_Hand
+    400042: R_Heel
+    400044: R_Knee
+    400046: R_Shin
+    400048: R_Shoulder
+    400050: R_Thigh
+    400052: R_ThighLimb
+    400054: R_Toe
+    400056: R_Upperarm
+    400058: R_Weapon_Bone
+    400060: Root
+    400062: Skel_BattleDroid
+    400064: TopFork
+    400066: TopLid
+    400068: Torso
+    2300000: HyperionBot_Fork
+    2300002: HyperionBot_Fork001
+    3300000: HyperionBot_Fork
+    3300002: HyperionBot_Fork001
+    4300000: Skel_BattleDroid
+    4300002: HyperionBot_Fork
+    4300004: HyperionBot_Fork001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Skel_BattleDroid
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HyperionBot_Fork
+        weight: 1
+      - path: HyperionBot_Fork001
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/BottomFork
+        weight: 1
+      - path: Root/Hips
+        weight: 1
+      - path: Root/Hips/L_ThighLimb
+        weight: 1
+      - path: Root/Hips/L_ThighLimb/L_Thigh
+        weight: 1
+      - path: Root/Hips/L_ThighLimb/L_Thigh/L_Knee
+        weight: 1
+      - path: Root/Hips/L_ThighLimb/L_Thigh/L_Knee/L_Shin
+        weight: 1
+      - path: Root/Hips/L_ThighLimb/L_Thigh/L_Knee/L_Shin/L_Heel
+        weight: 1
+      - path: Root/Hips/L_ThighLimb/L_Thigh/L_Knee/L_Shin/L_Toe
+        weight: 1
+      - path: Root/Hips/R_ThighLimb
+        weight: 1
+      - path: Root/Hips/R_ThighLimb/R_Thigh
+        weight: 1
+      - path: Root/Hips/R_ThighLimb/R_Thigh/R_Knee
+        weight: 1
+      - path: Root/Hips/R_ThighLimb/R_Thigh/R_Knee/R_Shin
+        weight: 1
+      - path: Root/Hips/R_ThighLimb/R_Thigh/R_Knee/R_Shin/R_Heel
+        weight: 1
+      - path: Root/Hips/R_ThighLimb/R_Thigh/R_Knee/R_Shin/R_Toe
+        weight: 1
+      - path: Root/Hips/Torso
+        weight: 1
+      - path: Root/Hips/Torso/Eye
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav/L_Shoulder
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav/L_Shoulder/L_Upperarm
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav/L_Shoulder/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav/L_Shoulder/L_Upperarm/L_Forearm/L_Hand
+        weight: 1
+      - path: Root/Hips/Torso/L_Clav/L_Shoulder/L_Upperarm/L_Forearm/L_Hand/L_Weapon_Bone
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav/R_Shoulder
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav/R_Shoulder/R_Upperarm
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav/R_Shoulder/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav/R_Shoulder/R_Upperarm/R_Forearm/R_Hand
+        weight: 1
+      - path: Root/Hips/Torso/R_Clav/R_Shoulder/R_Upperarm/R_Forearm/R_Hand/R_Weapon_Bone
+        weight: 1
+      - path: Root/Hips/Torso/TopLid
+        weight: 1
+      - path: Root/TopFork
+        weight: 1
+      - path: Skel_BattleDroid
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 54e157297173031478f7eab306b54746
+timeCreated: 1489284772
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_AntennaA
+    100002: Bone_AntennaB
+    100004: Bone_AntennaC
+    100006: Bone_Body
+    100008: Bone_EyelidA
+    100010: Bone_EyelidB
+    100012: Bone_FingerL_A
+    100014: Bone_FingerL_B
+    100016: Bone_FingerR_A
+    100018: Bone_FingerR_B
+    100020: Bone_ForearmR
+    100022: Bone_FrontPanelDrawer
+    100024: Bone_Lens
+    100026: Bone_LowerArmL
+    100028: Bone_ROOT
+    100030: Bone_ShoulderL
+    100032: Bone_ShoulderR
+    100034: Bone_SidePanel_RotateL
+    100036: Bone_SidePanel_RotateR
+    100038: Bone_SidePanel_SlideL_A
+    100040: Bone_SidePanel_SlideL_B
+    100042: Bone_SidePanel_SlideR_A
+    100044: Bone_SidePanel_SlideR_B
+    100046: Bone_UpperArmL
+    100048: Bone_UpperArmR
+    100050: Bone_Wheel_Roll
+    100052: Bone_Wheel_Yaw
+    100054: Bone_WheelFulcrum
+    100056: Bone_WristL
+    100058: Bone_WristR
+    100060: //RootNode
+    100062: Skel_ClapTrap
+    400000: Bone_AntennaA
+    400002: Bone_AntennaB
+    400004: Bone_AntennaC
+    400006: Bone_Body
+    400008: Bone_EyelidA
+    400010: Bone_EyelidB
+    400012: Bone_FingerL_A
+    400014: Bone_FingerL_B
+    400016: Bone_FingerR_A
+    400018: Bone_FingerR_B
+    400020: Bone_ForearmR
+    400022: Bone_FrontPanelDrawer
+    400024: Bone_Lens
+    400026: Bone_LowerArmL
+    400028: Bone_ROOT
+    400030: Bone_ShoulderL
+    400032: Bone_ShoulderR
+    400034: Bone_SidePanel_RotateL
+    400036: Bone_SidePanel_RotateR
+    400038: Bone_SidePanel_SlideL_A
+    400040: Bone_SidePanel_SlideL_B
+    400042: Bone_SidePanel_SlideR_A
+    400044: Bone_SidePanel_SlideR_B
+    400046: Bone_UpperArmL
+    400048: Bone_UpperArmR
+    400050: Bone_Wheel_Roll
+    400052: Bone_Wheel_Yaw
+    400054: Bone_WheelFulcrum
+    400056: Bone_WristL
+    400058: Bone_WristR
+    400060: //RootNode
+    400062: Skel_ClapTrap
+    4300000: Skel_ClapTrap
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Skel_ClapTrap
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_ROOT
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_AntennaA
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_AntennaA/Bone_AntennaB
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_AntennaA/Bone_AntennaB/Bone_AntennaC
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_EyelidA
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_EyelidA/Bone_EyelidB
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_FrontPanelDrawer
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_Lens
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL/Bone_UpperArmL
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL/Bone_UpperArmL/Bone_LowerArmL
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL/Bone_UpperArmL/Bone_LowerArmL/Bone_WristL
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL/Bone_UpperArmL/Bone_LowerArmL/Bone_WristL/Bone_FingerL_A
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderL/Bone_UpperArmL/Bone_LowerArmL/Bone_WristL/Bone_FingerL_B
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR/Bone_UpperArmR
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR/Bone_UpperArmR/Bone_ForearmR
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR/Bone_UpperArmR/Bone_ForearmR/Bone_WristR
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR/Bone_UpperArmR/Bone_ForearmR/Bone_WristR/Bone_FingerR_A
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_ShoulderR/Bone_UpperArmR/Bone_ForearmR/Bone_WristR/Bone_FingerR_B
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateL
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateL/Bone_SidePanel_SlideL_A
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateL/Bone_SidePanel_SlideL_A/Bone_SidePanel_SlideL_B
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateR
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateR/Bone_SidePanel_SlideR_A
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Body/Bone_SidePanel_RotateR/Bone_SidePanel_SlideR_A/Bone_SidePanel_SlideR_B
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Wheel_Yaw
+        weight: 1
+      - path: Bone_ROOT/Bone_WheelFulcrum/Bone_Wheel_Yaw/Bone_Wheel_Roll
+        weight: 1
+      - path: Skel_ClapTrap
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

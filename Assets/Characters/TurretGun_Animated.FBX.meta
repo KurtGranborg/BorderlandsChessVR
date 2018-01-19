@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 6efb87fe11d3b2f47b8914287ac538b0
+timeCreated: 1489284773
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_SideArm
+    100002: L_SideCannon
+    100004: MainGun
+    100006: MainGun_Piston
+    100008: R_SideArm
+    100010: R_SideCannon
+    100012: Root
+    100014: RootOffset
+    100016: Skel_HyperionTurret_Gun
+    100018: TurretCover
+    100020: //RootNode
+    100022: TurretPitch01
+    100024: TurretPitch02
+    100026: TurretPitch02_Offset
+    400000: L_SideArm
+    400002: L_SideCannon
+    400004: MainGun
+    400006: MainGun_Piston
+    400008: R_SideArm
+    400010: R_SideCannon
+    400012: Root
+    400014: RootOffset
+    400016: Skel_HyperionTurret_Gun
+    400018: TurretCover
+    400020: //RootNode
+    400022: TurretPitch01
+    400024: TurretPitch02
+    400026: TurretPitch02_Offset
+    4300000: Skel_HyperionTurret_Gun
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Skel_HyperionTurret_Gun
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/RootOffset
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/MainGun
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/MainGun_Piston
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/TurretCover
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/TurretCover/L_SideArm
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/TurretCover/L_SideArm/L_SideCannon
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/TurretCover/R_SideArm
+        weight: 1
+      - path: Root/RootOffset/TurretPitch01/TurretPitch02/TurretPitch02_Offset/TurretCover/R_SideArm/R_SideCannon
+        weight: 1
+      - path: Skel_HyperionTurret_Gun
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
